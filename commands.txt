@@ -20,7 +20,11 @@ commands:
 	git reflog：版本记录 可显示指针
 	
 
+Git username: yiditheawe1
+Pass: Qwerty321!!!
+Git token:
+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
 
-
+settting>>developer setting>>personal access tokens generate token
 
 	
