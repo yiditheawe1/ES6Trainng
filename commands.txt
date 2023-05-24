@@ -1,0 +1,26 @@
+git4部分：1.workspace>>add>>2.暂存区>>commit>>3.本地库>>push>>4.远程库
+
+签名(仓库/系统用户级别)：标识开发人员身份，优先级：就近原则(仓库>系统用户)
+	仓库级别：git config user.name yidi_pro
+		git config user.email yidi.liu@gmail.com
+	系统用户级别：git config --global user.name yidi_pro
+		git config --global user.email yidi.liu@gmail.com
+签名保存于:  .git/config
+
+
+
+commands:
+	cd ~home目录
+	ll -lA|less 一列排出所有包括隐藏文件，输出结果导入less(文本编辑器)中展示（ctrl z退出）
+	vim编辑器： vim test.txt	:wq 退出
+	git init：初始化本地库
+	git status: 查看工作区缓存区状态
+	git commit -m "msg" 缓存区提交到本地库
+	git log: 版本记录(多屏显示空格翻页b向上翻页q退出)	git log --pretty=oneline 或者 git log --oneline 
+	git reflog：版本记录 可显示指针
+	
+
+
+
+
+	
